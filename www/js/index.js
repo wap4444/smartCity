@@ -43,7 +43,7 @@ $('.loader1').fadeIn();
 
 
 $("#BtnEnt" ).click(function() {
-var ref = cordova.InAppBrowser.open('http://elecor.controlsoft.kz/app/index.htmlindex.php', '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
+var ref = cordova.InAppBrowser.open('http://elecor.controlsoft.kz/app/index.html', '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
 });
         
 function didReceiveRemoteNotificationCallBack(jsonData) {}
