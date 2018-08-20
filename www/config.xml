@@ -5,21 +5,13 @@
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
- id        = "kz.smartbus"
+ id        = "kz.elecor"
       version   = "1">
 
     <name>SmartBus</name>
 
     <description>
-«SMART Павлодар» - это многофункциональная мобильная система
-направленная на разрешении социальных вопросов и задач, значительно
-упрощающая и систематизирующая многие аспекты деловой и общественной
-жизни горожан. Система создана для прямого диалога с государственными
-структурами города и области и включает в себя тринадцать основных
-разделов: «ГАИ», «Налоговая», «Умный Дом», «Туризм и Спорт»,
-«Справочник», «Общественный транспорт», «Образование», «Миграционная
-полиция», «Глас Народа», «Курсы валют», «Новости», «Афиша», и
-«Уведомления».
+111
       </description>
 
     <author href="http://phonegap.com" email="elegant4444@gmail.com">
@@ -37,7 +29,7 @@ MaksimMorozov
     <preference name="target-device" value="handset" />
 
     <!-- Define a specific version of PhoneGap to build into your app. -->
-    <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
+    <!-- <preference name="phonegap-version"       value="cli-7.1.0" /> -->
 
     <!-- Plugins -->
     <!-- Core plugins -->
@@ -50,10 +42,10 @@ MaksimMorozov
 <plugin name="onesignal-cordova-plugin"  source="npm" />
       
 <gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
-     <string>Загрузка изображений в "Smart Павлодар"</string>
+     <string>Загрузка изображений в "Elecor"</string>
 </gap:config-file>
 <gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription" overwrite="true">
-    <string>Загрузка изображений в "Smart Павлодар"</string>
+    <string>Загрузка изображений в "Elecor"</string>
 </gap:config-file>
   
 
