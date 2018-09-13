@@ -23,25 +23,11 @@
 
     <icon src="www/res/icon/ios/1024.png" />
     <platform name="android">
-          
-     	<icon src="www/res/android/drawable-mdpi/ic_launcher.png" density="mdpi" />
-     	<icon src="www/res/android/drawable-hdpi/ic_launcher.png" density="hdpi" />
-     	<icon src="www/res/android/drawable-xhdpi/ic_launcher.png" density="xhdpi" />
-     	<icon src="www/res/android/drawable-xxhdpi/ic_launcher.png" density="xxhdpi" />
-     	<icon src="www/res/android/drawable-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
-          
-        <splash src="www/res/screen/android/drawable-land-ldpi-screen.png"      density="land-ldpi" />
-        <splash src="www/res/screen/android/drawable-land-mdpi-screen.png"      density="land-mdpi" />
-        <splash src="www/res/screen/android/drawable-land-hdpi-screen.png"      density="land-hdpi" />
-        <splash src="www/res/screen/android/drawable-land-xhdpi-screen.png"     density="land-xhdpi" />
-        <splash src="www/res/screen/android/drawable-land-xxhdpi-screen.png"    density="land-xxhdpi" />
-        <splash src="www/res/screen/android/drawable-land-xxxhdpi-screen.png"   density="land-xxxhdpi" />
-        <splash src="www/res/screen/android/drawable-port-ldpi-screen.png"      density="port-ldpi" />
-        <splash src="www/res/screen/android/drawable-port-mdpi-screen.png"      density="port-mdpi" />
-        <splash src="www/res/screen/android/drawable-port-hdpi-screen.png"      density="port-hdpi" />
-        <splash src="www/res/screen/android/drawable-port-xhdpi-screen.png"     density="port-xhdpi" />
-        <splash src="www/res/screen/android/drawable-port-xxhdpi-screen.png"    density="port-xxhdpi" />
-        <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png"   density="port-xxxhdpi" />
+     	<icon src="www/androidIcon/mdpi_ic_launcher.png" density="mdpi" />
+     	<icon src="www/androidIcon/hdpi_ic_launcher.png" density="hdpi" />
+     	<icon src="www/androidIcon/xhdpi_ic_launcher.png" density="xhdpi" />
+     	<icon src="www/androidIcon/xxhdpi_ic_launcher.png" density="xxhdpi" />
+     	<icon src="www/androidIcon/xxxhdpi_ic_launcher.png" density="xxxhdpi" />
     </platform>
 
     <platform name="ios">
