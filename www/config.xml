@@ -6,7 +6,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
  id        = "kz.elecor"
-      version   = "2">
+      version   = "3">
 
     <name>Elecor</name>
 
@@ -24,7 +24,7 @@ MaksimMorozov
     <!-- Customize your app and platform with the preference element. -->
     <preference name="DisallowOverscroll"         value="false" />
     <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
-    <preference name="android-minSdkVersion"      value="26" />
+    <preference name="android-minSdkVersion"      value="15" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="handset" />
 
