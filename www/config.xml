@@ -29,7 +29,7 @@ MaksimMorozov
     <preference name="target-device" value="handset" />
 
     <!-- Define a specific version of PhoneGap to build into your app. -->
-    <!-- <preference name="phonegap-version"       value="cli-7.1.0" /> -->
+    <!-- <preference name="phonegap-version"       value="cli-8.0.0" /> -->
 
     <!-- Plugins -->
     <!-- Core plugins -->
