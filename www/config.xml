@@ -18,7 +18,7 @@
 <plugin name="cordova-plugin-whitelist" spec="1.2.2" />
 <plugin name="onesignal-cordova-plugin"  spec="^2.4.1" source="npm" />
       
-<preference name="phonegap-version" value="cli-7.1.0" />
+<preference name="phonegap-version" value="cli-6.5.0" />
 <preference name="android-build-tool" value="gradle" />
 
     <icon src="www/res/icon/ios/1024.png" />
