@@ -1,61 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- config.xml reference: https://build.phonegap.com/docs/config-xml
-      
--->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
- id        = "kz.elecor"
-      version   = "3">
-
+<widget xmlns     = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id="kz.elecor" version="3">
     <name>Elecor</name>
+    <description>111</description>
+    <author href="http://phonegap.com" email="elegant4444@gmail.com">MaksimMorozov</author>
 
-    <description>
-111
-      </description>
-
-    <author href="http://phonegap.com" email="elegant4444@gmail.com">
-MaksimMorozov
-    </author>
-
-    <!-- Define the main entry-point to the application -->
     <content src="index.html" />
 
-    <!-- Customize your app and platform with the preference element. -->
     <preference name="DisallowOverscroll"         value="false" />
-    <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-minSdkVersion"      value="23" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="handset" />
 
-    <!-- Define a specific version of PhoneGap to build into your app. -->
-    <!-- <preference name="phonegap-version"       value="cli-8.0.0" /> -->
-
-    <!-- Plugins -->
-    <!-- Core plugins -->
 <plugin name="cordova-plugin-device" spec="1.1.6" />
 <plugin name="cordova-plugin-device-orientation" spec="1.0.7" />
-<!--<plugin name="cordova-plugin-inappbrowser" spec="1.3.0" />-->
-<plugin spec="https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git" version="1.1.0" source="git" />
+<plugin name="cordova-plugin-inappbrowser" spec="1.3.0" />
 <plugin name="cordova-plugin-network-information" spec="1.2.1" />
 <plugin name="cordova-plugin-whitelist" spec="1.2.2" />
 <plugin name="onesignal-cordova-plugin"  spec="^2.4.1" source="npm" />
       
-<gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
-     <string>Загрузка изображений в "Elecor"</string>
-</gap:config-file>
-<gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription" overwrite="true">
-    <string>Загрузка изображений в "Elecor"</string>
-</gap:config-file>
-  
-
-<!-- Recommend the newest cli but requires cli-5.1.1+ and gradle for Android. -->
-<!-- If the below settings are not compatible with your project set the "PGB ANT" version above. -->
 <preference name="phonegap-version" value="cli-8.0.0" />
 <preference name="android-build-tool" value="gradle" />
 
-
-    <!-- Define app icon and splashscreen for each platform. -->
     <icon src="www/res/icon/ios/1024.png" />
     <platform name="android">
           
@@ -109,58 +74,9 @@ MaksimMorozov
         <splash src="www/res/screen/ios/Default~iphone.png"             platform="ios" width="320"  height="480" />
     </platform>
 
-    <platform name="wp8">
-        <icon   src="www/res/icon/wp8/ApplicationIcon.png"   platform="wp8" width="99"  height="99" />
-        <icon   src="www/res/icon/wp8/Background.png"        platform="wp8" width="159" height="159" />
-        <splash src="www/res/screen/wp8/screen-portrait.jpg" platform="wp8" width="768" height="1280" />
-    </platform>
+ 
 
-    <platform name="windows">
-        <!-- For Windows the recommended approach to define app icons is to use target attribute -->
-        <!-- <icon src="www/res/icon/windows/StoreLogo.png"         target="StoreLogo" /> -->
-        <!-- <icon src="www/res/icon/windows/Square30x30Logo.png"   target="Square30x30Logo" /> -->
-        <!-- <icon src="www/res/icon/windows/Square44x44Logo.png"   target="Square44x44Logo" /> -->
-        <!-- <icon src="www/res/icon/windows/Square70x70Logo.png"   target="Square70x70Logo" /> -->
-        <!-- <icon src="www/res/icon/windows/Square71x71Logo.png"   target="Square71x71Logo" /> -->
-        <!-- <icon src="www/res/icon/windows/Square150x150Logo.png" target="Square150x150Logo" /> -->
-        <!-- <icon src="www/res/icon/windows/Square310x310Logo.png" target="Square310x310Logo" /> -->
-        <!-- <icon src="www/res/icon/windows/Wide310x150Logo.png"   target="Wide310x150Logo" /> -->
-        <icon src="www/res/icon/windows/Square150x150Logo.scale-100.png"     platform="windows"   width="150"  height="150" />
-        <icon src="www/res/icon/windows/Square30x30Logo.scale-100.png"       platform="windows"   width="30"   height="30" />
-        <icon src="www/res/icon/windows/StoreLogo.scale-100.png"             platform="windows"   width="50"   height="50" />
-        <splash src="www/res/screen/windows/SplashScreen.scale-100.png"      platform="windows"   width="620"  height="300" />
-        <!-- scaled images are specified here for backward compatibility only so we can find them by size -->
-        <icon   src="www/res/icon/windows/StoreLogo.scale-240.png"           platform="windows"   width="120"  height="120" />
-        <icon   src="www/res/icon/windows/Square44x44Logo.scale-100.png"     platform="windows"   width="44"   height="44" />
-        <icon   src="www/res/icon/windows/Square44x44Logo.scale-240.png"     platform="windows"   width="106"  height="106" />
-        <icon   src="www/res/icon/windows/Square70x70Logo.scale-100.png"     platform="windows"   width="70"   height="70" />
-        <icon   src="www/res/icon/windows/Square71x71Logo.scale-100.png"     platform="windows"   width="71"   height="71" />
-        <icon   src="www/res/icon/windows/Square71x71Logo.scale-240.png"     platform="windows"   width="170"  height="170" />
-        <icon   src="www/res/icon/windows/Square150x150Logo.scale-240.png"   platform="windows"   width="360"  height="360" />
-        <icon   src="www/res/icon/windows/Square310x310Logo.scale-100.png"   platform="windows"   width="310"  height="310" />
-        <icon   src="www/res/icon/windows/Wide310x150Logo.scale-100.png"     platform="windows"   width="310"  height="150" />
-        <icon   src="www/res/icon/windows/Wide310x150Logo.scale-240.png"     platform="windows"   width="744"  height="360" />
-        <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows"   width="1152" height="1920" />
-    </platform>
-
-    <!--
-        Define access to external domains.
-
-        <access />            - a blank access tag denies access to all external resources.
-        <access origin="*" /> - a wildcard access tag allows access to all external resource.
-
-        Otherwise, you can specify specific domains:
-    -->
     <access origin="*" />
-    <!--
-       <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
-       <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
-       <access origin="http://phonegap.com" browserOnly="true" /> - only allows http://phonegap.com to be opened by the child browser.
-    -->
-
-    <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
-    <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
-
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -174,5 +90,4 @@ MaksimMorozov
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-
 </widget>
