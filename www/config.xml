@@ -39,7 +39,7 @@ MaksimMorozov
 <plugin spec="https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git" version="1.1.0" source="git" />
 <plugin name="cordova-plugin-network-information" spec="1.2.1" />
 <plugin name="cordova-plugin-whitelist" spec="1.2.2" />
-<plugin name="onesignal-cordova-plugin"  source="npm" />
+<plugin name="onesignal-cordova-plugin"  spec="^2.4.1" source="npm" />
       
 <gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
      <string>Загрузка изображений в "Elecor"</string>
