@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns     = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id="kz.elecor" version   = "3.0.1">
+<widget xmlns     = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id="kz.elecor" version   = "3.0.2">
     <name>Elecor</name>
     <description>111</description>
     <author href="http://phonegap.com" email="elegant4444@gmail.com">MaksimMorozov</author>
