@@ -46,8 +46,12 @@ $("#BtnEnt" ).click(function() {
 var ref = cordova.InAppBrowser.open('http://elecor.controlsoft.kz/app/index.php', '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
 });
         
-function didReceiveRemoteNotificationCallBack(jsonData) {}
-function didOpenRemoteNotificationCallBack(jsonData) {}       
+function didReceiveRemoteNotificationCallBack(jsonData) {
+var ref = cordova.InAppBrowser.open(jsonData.notification.payload.additionalData.ssylka, '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
+}
+function didOpenRemoteNotificationCallBack(jsonData) {
+var ref = cordova.InAppBrowser.open(jsonData.notification.payload.additionalData.ssylka, '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
+}      
         //Настройка ПУШЕЙ ДЛЯ АЙФОНА
         var iosSettings = {};
         iosSettings["kOSSettingsKeyAutoPrompt"] = true;
